@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="assets/bar-cohen.png" alt="Bar Cohen" width="160" />
-
 # Bar Cohen
 
 **Data Scientist and AI Engineer** · Weizmann Institute of Science
@@ -27,7 +25,7 @@
 </div>
 
 <p align="center">
-<a href="#tools">Tools</a> · <a href="#radio-playlist-dashboard">Radio Dashboard</a> · <a href="#lettucemeet-cli--mcp">LettuceMeet MCP</a> · <a href="#clipspeak">ClipSpeak</a> · <a href="#how-i-build">How I build</a> · <a href="#teaching">Teaching</a>
+<a href="#tools">Tools</a> · <a href="#radio-playlist-dashboard">Radio Dashboard</a> · <a href="#lettucemeet-cli--mcp">LettuceMeet MCP</a> · <a href="#kol-hashfela-radio">Kol Hashfela Radio</a> · <a href="#how-i-build">How I build</a> · <a href="#teaching">Teaching</a>
 </p>
 
 ---
@@ -40,7 +38,7 @@ Tools I built because I needed them. Most of my day-to-day work lives in private
 |:-----|:----:|:-------------|:-------|
 | [**Radio Playlist Dashboard**](https://github.com/brchn6/radio-playlist-dashboard) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Recognizes and logs every song playing on 8 Israeli radio stations, live, for $0 a month | [Live site](https://brchn6.github.io/radio-playlist-dashboard/) |
 | [**LettuceMeet CLI + MCP**](https://github.com/brchn6/LettuceMeet_CLI) | ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white) | Create meeting polls, read responses, and find the best time from the terminal, or let an AI agent do it | `uv sync` · [Setup](https://github.com/brchn6/LettuceMeet_CLI#quick-setup) |
-| [**ClipSpeak**](https://github.com/brchn6/clipspeak) | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | A floating read-aloud bubble for Android: copy text in any app, tap, and hear it | [APK v1.0.0](https://github.com/brchn6/clipspeak/releases/latest) |
+| [**Kol Hashfela Radio**](https://github.com/brchn6/radio-kol-hashfela) | ![Java](https://img.shields.io/badge/-Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) | One-button Android app for a local radio station: plays in the background and reconnects by itself when the network drops | [Download page](https://brchn6.github.io/radio-kol-hashfela/) |
 
 ---
 
@@ -73,11 +71,17 @@ uv run python main.py overlap <event-id>   # best meeting times
 
 MCP tools: `create_poll`, `show_event`, `respond_to_poll`, `compute_overlap`, `delete_event`. Works with any MCP client, such as Claude Code, Codex, or Pi. 42 tests.
 
-## ClipSpeak
+## Kol Hashfela Radio
 
-Brave for Android has no extensions, so there is no read-aloud button. ClipSpeak adds one at the system level: select text in any app, tap **Copy**, then tap the floating bubble to hear it with the phone's own TTS engine. No accessibility service, no storage or internet permissions.
+An unofficial fan app for Radio Kol Hashfela 103.6FM, the local station in Rehovot. Open it and the station plays. It keeps playing in the background, pauses for calls and navigation prompts, and reconnects by itself when the network drops. Release APKs are signed with a private key kept outside the repo.
 
-[Download the APK](https://github.com/brchn6/clipspeak/releases/latest) · [Source](https://github.com/brchn6/clipspeak)
+<p align="center">
+  <a href="https://brchn6.github.io/radio-kol-hashfela/"><img src="https://raw.githubusercontent.com/brchn6/radio-kol-hashfela/main/site/app.png" alt="Kol Hashfela Radio app screen" width="220" /></a>
+</p>
+
+<p align="center">
+  <a href="https://brchn6.github.io/radio-kol-hashfela/"><strong>Download page</strong></a> · <a href="https://github.com/brchn6/radio-kol-hashfela"><strong>Source</strong></a>
+</p>
 
 ---
 
