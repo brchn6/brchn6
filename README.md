@@ -4,7 +4,7 @@
 
 **Data Scientist and AI Engineer** · Weizmann Institute of Science
 
-*I build AI systems end to end and keep them running in production at the Weizmann Institute of Science, and I teach researchers and staff to bring AI into their own work.*
+*I'm a data scientist at the Pilpel Lab, Weizmann Institute of Science. I automate anything that can be automated, and research what can't.*
 
 ![Python](https://img.shields.io/badge/-Python-2b2b2b?style=flat-square&logo=python&logoColor=3776AB)
 ![Java](https://img.shields.io/badge/-Java-2b2b2b?style=flat-square&logo=openjdk&logoColor=white)
@@ -25,10 +25,24 @@
 </div>
 
 <p align="center">
-<a href="#tools">Tools</a> · <a href="#radio-playlist-dashboard">Radio Dashboard</a> · <a href="#lettucemeet-cli--mcp">LettuceMeet MCP</a> · <a href="#kol-hashfela-radio">Kol Hashfela Radio</a> · <a href="#how-i-build">How I build</a> · <a href="#teaching">Teaching</a>
+<a href="#what-i-do">What I do</a> · <a href="#tools">Tools</a> · <a href="#radio-playlist-dashboard">Radio Dashboard</a> · <a href="#lettucemeet-cli--mcp">LettuceMeet MCP</a> · <a href="#kol-hashfela-radio">Kol Hashfela Radio</a> · <a href="#how-i-build">How I build</a> · <a href="#teaching">Teaching</a>
 </p>
 
 ---
+
+## What I do
+
+At the Pilpel Lab, Weizmann Institute of Science. Most of this lives in private repos; the public tools are below.
+
+| Area | Work |
+|:--|:--|
+| **Automation** | AI agents that run and monitor protocols on the lab's wet-lab robot, in production, with alerts and remote restart |
+| **Lab agents** | The lab's AI co-work assistant, an LLM agent with RAG memory and tools for calendars, reminders and lab info; an MCP server for the institute's supply catalog |
+| **AI integration** | Existing workflows of researchers and staff, wired into reproducible pipelines run by AI assistants |
+| **Pipelines** | A proteomics method from a Nature paper, turned into a one-command HPC pipeline that a collaborating lab runs on its experiments |
+| **Research** | MPRA analysis from raw sequencing files to an interactive results site; pipelines and dashboards for a Leishmania genome study |
+| **Evaluation** | Pipelines validated against published results and ground truth; a review loop in which reviewer agents check coding agents' work |
+| **Production and deployment** | Docker, Apptainer, LSF and systemd on lab servers and the institute's HPC cluster, with monitoring and access control |
 
 ## Tools
 
@@ -102,7 +116,7 @@ An unofficial fan app for Radio Kol Hashfela 103.6FM, the local station in Rehov
 
 ## Teaching
 
-I teach *All the Things You Didn't Learn in Your Coding Course*, a course I founded as part of my role at the Weizmann Institute of Science, training researchers and staff to bring AI into their daily work.
+I founded and teach *All the Things You Didn't Learn in Your Coding Course* at the Weizmann School of Science, training researchers and staff to bring AI into their daily work. I gave the Weizmann AI Hub seminar *AI Agents in Your Research* (Sep 2026), and I lead the institute's Computational Forum.
 
 ## Connect
 
