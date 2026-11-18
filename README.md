@@ -2,7 +2,7 @@
 
 # Bar Cohen
 
-**Data Scientist and AI Engineer** · Weizmann Institute of Science
+**AI Engineer, Scientific R&D** · Weizmann Institute of Science
 
 *I'm a data scientist at the Pilpel Lab, Weizmann Institute of Science. I automate anything that can be automated, and research what can't.*
 
@@ -13,7 +13,6 @@
 ![Postgres](https://img.shields.io/badge/-Postgres-2b2b2b?style=flat-square&logo=postgresql&logoColor=4169E1)
 ![Supabase](https://img.shields.io/badge/-Supabase-2b2b2b?style=flat-square&logo=supabase&logoColor=3FCF8E)
 ![MCP](https://img.shields.io/badge/-MCP-2b2b2b?style=flat-square&logo=modelcontextprotocol&logoColor=white)
-![Claude Code](https://img.shields.io/badge/-Claude_Code-2b2b2b?style=flat-square&logo=anthropic&logoColor=d4a27f)
 ![GitHub Pages](https://img.shields.io/badge/-GitHub_Pages-2b2b2b?style=flat-square&logo=githubpages&logoColor=white)
 
 [![Website](https://img.shields.io/badge/brchn6.github.io-0F766E?style=flat-square&logo=google-chrome&logoColor=white)](https://brchn6.github.io)
@@ -83,7 +82,7 @@ uv run python main.py login "<token>"
 uv run python main.py overlap <event-id>   # best meeting times
 ```
 
-MCP tools: `create_poll`, `show_event`, `respond_to_poll`, `compute_overlap`, `delete_event`. Works with any MCP client, such as Claude Code, Codex, or Pi. 42 tests.
+MCP tools: `create_poll`, `show_event`, `respond_to_poll`, `compute_overlap`, `delete_event`. Works with any MCP client. 42 tests.
 
 ## Kol Hashfela Radio
 
